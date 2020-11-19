@@ -340,7 +340,7 @@ to {
 .hero .hero-content {
     padding-top: 40%}
 .hero .hero-content img {
-    width: 55%;
+    width: 100%;
     margin-bottom: 12%}
 .navigation {
     transition: all 300ms ease-in-out;
@@ -881,6 +881,17 @@ body.modal-open {
     position: relative;
 }
 
+.hero_footer {
+    font-family: "Abhaya Libre", serif;
+    min-height: 750px;
+    /* background: url("../img/hero-bunga-center.png") center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 .image-text {
     display: flex;
     align-items: center;
@@ -895,4 +906,29 @@ body.modal-open {
     .image-text__text {
     /* flex: 1 1 auto; */
     padding: 1em;
+    }
+
+    @media screen and (min-width: 480px) {
+   
+        .hero {
+            min-height: 750px;
+            background: url("../img/hero-mid-480px.png") center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            position: relative;
+        }
+    }
+    @media screen and (min-width: 380px) {
+   
+        .hero {
+            min-height: 750px;
+            background: url("../img/hero-mid-380px.png") center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            position: relative;
+        }
     }
