@@ -29,7 +29,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/flexslider.css">
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/styles.min.css"> -->
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
@@ -44,22 +45,22 @@
 
 
     <section class="hero">
-        <section class="navigation">
+        <section class="navigation fixed">
             <header>
                 <div class="header-content">
                     <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
-                                <li><a href="#intro">How we met</a></li>
+                                <li><a href="#intro">Intro</a></li>
                                 <li><a href="#events">Events</a></li>
                                 <li><a href="#instagram">Instagram</a></li>
-                                <li><a href="#eng-pics">Engagement</a></li>
-                                <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
+                                <!-- <li><a href="#eng-pics">Engagement</a></li> -->
+                                <!-- <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li> -->
                             </ul>
                             <ul class="member-actions">
-                                <li><a href="#map" class="login">Venue</a></li>
-                                <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                                <li><a href="#map" class="login">Maps</a></li>
+                                <!-- <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li> -->
                             </ul>
                         </nav>
                     </div>
@@ -73,24 +74,17 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
-                        <!--<h1>Ram and Antara</h1>-->
-                        <img src="img/logo-lg.png">
-                        <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
-                        <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+
+                        <img src="img/hero-mid.png">
+
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 hidden-xs"></div>
-                <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                        class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
-                <div class="col-sm-4 hidden-xs"></div>
             </div>
         </div>
         <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
     </section>
 
-    <section id="invitation" class="section-padding">
+    <!-- <section id="invitation" class="section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -102,27 +96,31 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="intro">
+    <section id="intro" class="hero_bunga">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3 class="header">How we met</h3>
+                    <h2 class="header"><strong>SAVE THE DATE</strong></h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div>
                 <div class="col-md-6">
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
+                    <p class="text-center"><strong>
+                            <h2 class="text-center"><strong>28 November 2020</strong></h2>
+                        </strong>
                     </p>
+                    <p>
+                    <h2 class="text-center"><strong>Akad</strong><br>
+                        8am - 10am</h2>
+                    </p>
+                    <p>
+                    <h2 class="text-center"><strong>RESEPSI</strong><br>
+                        10am - 15pm</h2>
+                    </p>
+
                 </div>
                 <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div>
             </div>
@@ -135,7 +133,7 @@
         </div>
     </section>
 
-    <section class="events section-padding" id="events">
+    <!-- <section class="events section-padding" id="events">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -201,7 +199,7 @@
         </div>
 
 
-    </section>
+    </section> -->
 
     <section id="instagram" class="section-padding">
         <div class="container">
@@ -305,7 +303,7 @@
         </div>
     </div>-->
     </section>
-
+    <!-- 
     <section id="video-bg" class="hidden-sm hidden-xs">
         <div id="bgndVideo" class="player"
             data-property="{videoURL:'https://youtu.be/9giqL1H6yRs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
@@ -314,7 +312,7 @@
             <h5>Video</h5>
             <p>City of joy</p>
         </div>
-    </section>
+    </section> -->
 
     <section id="map" class="section-padding">
         <div class="text-center">
@@ -327,69 +325,8 @@
             tabindex="0"></iframe>
     </section>
 
-    <section class="rsvp text-center" id="rsvp">
-
-        <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                        </button>
-                        <div class="section-padding">
-                            <h3>Thank you!</h3>
-                            <p>We are glad to see you join us on our big day.</p>
-                            <div id="add-to-cal"></div>
-                        </div>
-                    </div>
-                </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <h3>What are you waiting for?</h3>
-                    <p>We would greatly appreciate if you could RSVP before 28st of November '20</p>
-                    <form id="rsvp-form" class="rsvp-form" action="" method="POST">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-input-group">
-                                    <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                        placeholder="Your email" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="name" class="" placeholder="Your name"
-                                        required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-input-group">
-                                    <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                        max="4" placeholder="Husband/Wife or kids" required>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="form-input-group">
-                                    <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                        class="" min="0" placeholder="Invite code" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12" id="alert-wrapper"></div>
-                        </div>
-                        <button class="btn-fill rsvp-btn">
-                            Yes,
-                            that's me!
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <section class="rsvp text-center">
+        <img src="img/footer.png" width="590px" />
     </section>
 
     <footer>
